@@ -10,25 +10,39 @@
 </head>
 <body>
 
-    <div class="container">
+    <!-- estrutura html que está presente na criação dos componentes:
 
+    <div class="container">
         <div class="card">
             <div class="card__left">
-                <span>Alyce Monteiro</span>
-                <a href="#">Alguma noticia atual relevante.</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rem cupiditate dolorem consectetur aliquid deleniti itaque debitis dolores .</p>
+                <span></span>
+                <a href="#"></a>
+                <p></p>
             </div>
             <div class="card__right">
-                <img src="assets/img/what i think i paint.png" width="300px" srcset="">
+                <img>
             </div>
         </div>
+    </div> -->
+    
+    <div class="app-root">
+        <card-news
+            autor="Universe"
+            title="Come watch the sky with us"
+            link-url="google.com"
+            photo="assets/img/what i think i paint.png"
+            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita recusandae eos deleniti assumenda rem optio ab quis repudiandae?"
+        >
+        </card-news>
 
+        <card-news
+            title="The Weeknd fará show no Brasil"
+            link-url="google.com"
+            content="Abel Tesfaye está de volta ao Brasil em outubro! Dessa vez trazendo sua nova turnê, que será a última na que Abel se referirá como The Weeknd."
+        >
+        </card-news>
     </div>
 
-    <card-news></card-news>
-
-    <titulo-dinamico titulo="Noticia urgente"></titulo-dinamico>
-    <titulo-dinamico titulo="Nova noticia"></titulo-dinamico>
     <titulo-dinamico titulo="Breaking news"></titulo-dinamico>
 
 </body>
