@@ -4,37 +4,3 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.card{
-    width: 80%;
-    box-shadow: 8px 12px 37px -14px rgba(0, 27, 95, 0.76);
-    -webkit-box-shadow: 8px 12px 37px -14px rgba(0, 27, 95, 0.7 6);
-    -moz-box-shadow: 8px 12px 37px -14px rgba(0, 27, 95, 0.76);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.card__left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.card__left span {
-    font-weight: 400;
-}
-
-.card__left a {
-    margin-top: 1rem;
-    font-size: 20px;
-    color: black;
-    text-decoration: none;
-    font-weight: 500;
-    padding-bottom: 0.625rem;
-}
-
-.card__left p {
-    color: #554;
-}
