@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Components</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="src/Components/CardNews.js" defer></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
 </head>
 <body>
+
+    <div class="container">
+
+        <div class="card">
+            <div class="card__left">
+                <span>Alyce Monteiro</span>
+                <a href="#">Alguma noticia atual relevante.</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi rem cupiditate dolorem consectetur aliquid deleniti itaque debitis dolores .</p>
+            </div>
+            <div class="card__right">
+                <img src="assets/img/what i think i paint.png" width="300px" srcset="">
+            </div>
+        </div>
+
+    </div>
+
+    <card-news></card-news>
+
+    <titulo-dinamico titulo="Noticia urgente"></titulo-dinamico>
+    <titulo-dinamico titulo="Nova noticia"></titulo-dinamico>
+    <titulo-dinamico titulo="Breaking news"></titulo-dinamico>
 
 </body>
 </html>
